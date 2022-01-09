@@ -1,0 +1,67 @@
+$var1: #180c63;
+$var2: #5b4db6;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  margin: 0px auto;
+  border: 1px solid black;
+}
+.calendar__header-mounth {
+  background-color: rgb(50, 170, 150);
+  color: whitesmoke;
+  margin: -9px 0px 15px 0px;
+  text-align: center;
+  position: relative;
+  top: 3%;
+  height: 100px;
+}
+.calendar__header {
+  padding: 23px;
+  font-size: 25px;
+  &-days {
+    font-size: 22px;
+  }
+}
+.calendar__number label {
+  display: inline-block;
+  width: 39px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.calendar__number input {
+  display: contents;
+}
+.calendar__number-one-week {
+}
+.calendar__number-two-week {
+}
+.calendar__number-three-week {
+}
+.calendar__number-four-week {
+}
+.calendar__number-five-week {
+}
+.calendar__number-six-week {
+}
+.calendar__number-inactive-days {
+  background-color: rgb(192, 192, 192);
+  color: rgb(110, 110, 110);
+}
+.calendar__number-active-days:hover {
+  color: white;
+  background-color: $var1;
+  &:focus {
+    color: white;
+    background-color: $var2;
+  }
+}
+.calendar__number-active-days-celebration {
+  color: tomato;
+}

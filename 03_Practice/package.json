@@ -1,0 +1,21 @@
+{
+  "name": "03_Practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.47.0",
+    "yarn": "^1.22.17"
+  },
+  "scripts": {
+    "cmd": "gulp",
+    "build": "yarn cmd default",
+    "watch": "yarn cmd watch"
+  },
+  "devDependencies": {
+    "@types/gulp": "^4.0.9"
+  }
+}
